@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 00;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aXp-p7K4KLg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+h1{
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Montserrat', Arial, sant-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+body {
+    background-image: url(./sandwich.jpg);
+    background-position: middle;
+    background-position: center;
+}
+
+
+
+*{
+    
+    font-weight: 500;
+    font-family: 'Montserrat', Arial, sant-serif;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+h1 {
+    color: red;
+}
+
+table {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    border-color: black;
+    position: auto;
+    border: 2px solid rgb(0, 0, 0);
+    width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+.middle {
+    text-align: center;
+}
+ th {
+    border: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+ }
+
+ td {
+    background-color: rgb(226, 255, 236);
+    
+    border: 1.5px solid rgb(236, 24, 24);
+ }
+
+ td:hover {background-color: rgb(80, 255, 147);}
