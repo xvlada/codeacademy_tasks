@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/homemadeapple/v18/Qw3EZQFXECDrI2q789EKQZJob0x6XHgOiJM6.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  * {
+    background-color: black;
+    color: antiquewhite; 
+    display: block;
+}
+
+table {
+    border: 1px solid white;
+    overflow: scroll;
+}
+
+head {
+    display: none;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Homemade Apple';
+    color: #5b30e8;
+    box-shadow: 10px;
+    font-size: 55px;
+    text-shadow: 1px 3px 2px rgb(253, 87, 58);
+}
+     
+h2 {
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Jost';
+    font-size: 50px;
+}   
+#pfonts {
+    margin-top: 300px;
+}
+
+div {
+    display: block;
+}
+
+.front, .text-style {
+    padding-top: 0px;
+}
+
+.color h3 {
+    padding-left: 10px;
+}
+.block  {
+    width: 100%;
+    
+}
+
+.block {
+    display: block;
+}
+ 
+/* COLORS */
+
+.yellow, .blue, .red, .green, .dblue, .lgrey {
+    
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-left: 10px;
+    display: inline;
+    float: left;
+}
+
+#box {
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+}
+
+.yellow .box{
+    background-color: #FACF5A;
+}
+
+.blue .box {
+    background-color: #0170CA;
+}
+
+.red.box {
+    background-color: #FF5959;
+}
+
+.green.box {
+    background-color: #4F9DA6;
+}
+
+.dblue.box {
+    background-color: #233142;
+}
+
+.lgrey.box {
+    background-color: #F2F2F2;
+}
+
+.color .type {
+    color: grey;
+    margin-top: -25px;
+    font-size: 25px;
+    text-align: left;
+    
+}
+
+.color .font {
+    
+    font-size: 28px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.yellow .font {
+    color:#FACF5A;
+}
+
+.blue .font {
+    color: #0170CA;
+}
+
+.red .font {
+    color: #FF5959;
+}
+
+.green .font {
+    color: #4F9DA6 ;
+}
+
+.dblue  .font {
+    color: #233142;
+}
+
+.lgrey .font {
+    color: #F2F2F2;
+}
+
+ /* FONTS */
+
+.front h3 {
+    font-size: 25px;
+}
+
+.front {
+    font-size: 20px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid wheat;
+    padding-left: 70px;
+    float: none;
+    padding-bottom: 30px;
+     
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.uno {
+    font-family: 'Crimson Text';
+}
+
+.dos {
+    font-family: 'Merriweather';
+
+}
+
+.tres {
+    font-family: 'Raleway';
+
+}
+
+.cuatro{
+    font-family: 'Jost' ;
+
+}
+
+.uno h3, .yellow {
+    color: #FACF5A;
+}
+
+.dos h3 {
+    color: #4F9DA6;
+}
+.tres h3, .blue  {
+    color: #0170CA;
+}
+
+.cuatro h3, .redd {
+    color: #FF5959;
+}
+
+/*  Text Styles */
+
+#gridstyle {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid wheat;
+    padding-left: 15px;
+    padding-top: 15px;
+    float: none;
+    padding-bottom: 0px;
+}
+
+.hone {
+    font-size: 70px;
+}
+
+.htwo {
+    font-size: 50px;
+    vertical-align: middle;
+    line-height: 80px;
+}
+
+.hp {
+    font-size: 25px;
+    padding-left: 10px;
+    vertical-align: middle;
+    line-height: 50px;
+}
