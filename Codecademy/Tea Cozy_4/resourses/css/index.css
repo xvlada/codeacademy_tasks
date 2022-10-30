@@ -1,0 +1,218 @@
+/* 
+  Site Stylesheet
+  1. Global Styles
+  2. Navigation
+  3. Main content
+  3. 1 Mission  
+  3. 2 Featured  
+  3. 3 Location  
+  4. Footer 
+ */
+  
+  /*  1. Global Styles */
+
+  body{
+    
+    font-family: Helvetica;
+    font-size: 22px;
+    color: rgba(255, 245, 238, 85%);
+    background-color: black;
+    
+  }
+
+  li {
+    list-style: none;
+    display: inline-flex;
+      
+  }
+
+
+  h2, h4 {
+  text-align: center;
+  padding: 0;
+
+  }
+
+
+/* 2. Navigation                      */
+
+a:link    { color: inherit; text-decoration: underline; }
+a:visited { color: inherit; text-decoration: underline; }
+a:hover   { color: inherit; text-decoration: underline; }
+a:active  { color: inherit; text-decoration: underline; }
+
+.nav-conteiner {
+
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center; 
+
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  
+  width: 100%;
+  min-height: 69px;
+  top: 0px;
+  
+}
+
+header li {
+   
+  text-decoration: underline;
+  margin-right: 20px;
+  display: inline-flex;
+
+}
+
+.textnav li:hover {
+  color: rgb(253, 253, 143);
+  cursor: pointer;
+}
+
+.logo {
+   
+  width: auto;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: auto;
+   
+}
+
+
+/* 3. Main content ____________________________ */
+
+/* 3. 1 Mission ____________________________ */
+
+.mission-conteiner {
+  
+  width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+  min-height: 700px;
+  background-image: url("../images/img-mission-background.jpeg");
+  background-repeat: no-repeat;
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+  .mission-info {
+ 
+  box-sizing: content-box;
+  background-color: black;
+  width: 100%;
+   
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 1200px;
+  
+}
+
+.mission-info h2, 
+.mission-info h4 {
+  margin: 7px 0 ;
+  padding: 0;
+}
+
+
+/* 3. 2 Featured ____________________________ */
+
+img {
+  width: 300px;
+  height: 200px;
+   
+}
+
+.featured-foto {
+  display: flex;
+ flex-direction: row;
+max-width: 1200px;
+flex-wrap: wrap;
+margin: 0 auto;
+align-content: center;
+justify-content: center;
+
+}
+
+figcaption {
+  text-align: center;
+  padding: 10px 0 0 0;
+}
+
+.featured-conteiner {
+   
+  padding-top: 30px;
+
+}
+
+.h2edit {
+  margin-bottom: 20px;
+}
+
+.h4edit {
+ 
+  margin:  0 ;
+  padding: 0 0 20px 0;
+}
+
+/* 3. 3 Location ____________________________ */
+
+.locations-container {
+  display: flex;
+  padding: 0px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 600px;
+  width: 1200px;
+  background-image: url(../../resourses/images/img-locations-background.jpeg);
+}
+
+.location-header {
+  text-align: center;
+  
+}
+
+.address {
+  display: inline-block;
+  min-width: 300px;
+  height: auto;
+  margin: 0 20px;
+  background-color: black;
+  line-height: 45px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+  
+
+
+
+  /* 4. Footer  ____________________________ */
+
+  footer {
+    opacity: 0.8;
+    margin: 0 20px 20px 20px;
+   
+  }
+
+ .footer {
+  height: 200px;
+ }
+
+  .contact {
+    text-align: center;
+    
+    
+  }
