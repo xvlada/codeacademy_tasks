@@ -369,13 +369,12 @@ a.menu{
     line-height: 3rem;
     padding-top: 2rem  ;
     margin-top: 2rem;
-  
-    
 }
 
 .footer_links a:hover {
     color: #c4302b;
     font-family: 'Roboto', sans-serif;
+    z-index: 100;
  }
 
 .footer_frase  {
@@ -387,7 +386,6 @@ a.menu{
      margin-left: 2%; 
 }
 
- 
  
 .footer_decor {
     
