@@ -164,7 +164,7 @@ a.menu{
 
 .noic:hover {
     opacity: 1;
-     border: .3rem solid  rgb(43, 42, 42);
+    
 }
 
 .statistics_bottom{
@@ -471,7 +471,7 @@ a.menu{
     .statistics_bottom{
        
         width: 90%;
-        margin-top: -23%;
+        margin-top: -23.017%;
         padding: 0 5% 5%;
     }
     
@@ -564,7 +564,7 @@ a.menu{
     .statistics_bottom{
        
         width: 90%;
-        margin-top: -23.015%;
+        margin-top: -23.017%;
         padding: 0 5% 5%;
     }
     
