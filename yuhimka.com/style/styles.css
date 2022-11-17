@@ -164,7 +164,7 @@ a.menu{
 
 .noic:hover {
     opacity: 1;
-     border: .2rem solid  rgb(43, 42, 42);
+     border: .3rem solid  rgb(43, 42, 42);
 }
 
 .statistics_bottom{
@@ -178,14 +178,9 @@ a.menu{
 
 }
 
-.ic:hover {
-    opacity: 1;
-   
-}
+ 
 
-.noic:hover {
-    visibility: hidden;
-}
+ 
 
 #stat_container_bottom {
     display: flex;
