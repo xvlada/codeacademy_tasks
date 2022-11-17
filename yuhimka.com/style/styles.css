@@ -177,13 +177,17 @@ a.menu{
     opacity: 1;
 }
 
+.noic:hover {
+    visibility: hidden;
+}
+
 #stat_container_bottom {
     display: flex;
     justify-content: space-evenly;
 }
 
 .ic{
-    width: 10%;
+    width: 10.1%;
     border-radius: 25%;
     opacity: 0;
 }
