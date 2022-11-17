@@ -158,7 +158,8 @@ a.menu{
 
 .noic {
     width: 10%;
-    border-radius: 30%;
+    border-radius: 30%; 
+   
 }
 
 .noic:hover {
@@ -178,6 +179,7 @@ a.menu{
 
 .ic:hover {
     opacity: 1;
+   
 }
 
 .noic:hover {
@@ -191,8 +193,9 @@ a.menu{
 
 .ic{
     width: 10.1%;
-    border-radius: 25%;
+    border-radius: 30%;
     opacity: 0;
+ border: .2rem solid  rgb(43, 42, 42);
 }
 
 
