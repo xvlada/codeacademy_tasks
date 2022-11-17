@@ -593,9 +593,15 @@ a.menu{
     #banner {
         height: 9rem;
     }
+
+    .footer_frase {
+        font-size: .8rem;
+
+    }
  
     .footer_links li {
         line-height: 2rem;
+        font-size: .8rem;
 
     }
     .footer_links {
