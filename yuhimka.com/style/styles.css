@@ -179,9 +179,6 @@ a.menu{
    
 }
 
-.noic:hover{
-    opacity: 0;
-}
 
 #stat_container_bottom {
     display: flex;
@@ -295,7 +292,7 @@ a.menu{
     display: flex;
     box-sizing: border-box;
     flex-flow: row wrap;
-    margin: -120.77% auto 3% auto; 
+    margin: -120.799% auto 3% auto; 
     justify-content: space-between;
     height: 100%;
     width: 80%;
@@ -543,7 +540,7 @@ a.menu{
     }
 
     #content_top {
-        margin-top: -150.23%;
+        margin-top: -150.25%;
      }
 
   
