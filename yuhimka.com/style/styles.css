@@ -164,6 +164,7 @@ a.menu{
 
 .noic:hover {
     opacity: 1;
+     border: .2rem solid  rgb(43, 42, 42);
 }
 
 .statistics_bottom{
@@ -195,7 +196,7 @@ a.menu{
     width: 10.1%;
     border-radius: 30%;
     opacity: 0;
- border: .2rem solid  rgb(43, 42, 42);
+
 }
 
 
