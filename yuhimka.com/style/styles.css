@@ -164,7 +164,7 @@ a.menu{
 
 .noic:hover {
     opacity: 1;
-    
+     border: .2rem solid  rgb(43, 42, 42);
 }
 
 .statistics_bottom{
@@ -178,7 +178,10 @@ a.menu{
 
 }
 
- 
+.ic:hover {
+    opacity: 1;
+   
+}
 
  
 
@@ -191,7 +194,6 @@ a.menu{
     width: 10.1%;
     border-radius: 30%;
     opacity: 0;
-    
 
 }
 
@@ -485,7 +487,6 @@ a.menu{
         width: 20%;
         opacity: 0;
         border-radius: 25%;
-        
     }
 
     #introduction {
@@ -602,7 +603,6 @@ a.menu{
  
     .footer_links li {
         line-height: 2rem;
-        font-size: 1rem;
 
     }
     .footer_links {
