@@ -572,7 +572,7 @@ a.menu{
     }
 
     .noic:hover {
-        opacity: 0;
+        opacity: 1;
     }
     
     a.menu, a.last_menu_item {
