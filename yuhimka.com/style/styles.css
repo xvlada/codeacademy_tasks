@@ -471,7 +471,7 @@ a.menu{
     .statistics_bottom{
        
         width: 90%;
-        margin-top: -23.05%;
+        margin-top: -23%;
         padding: 0 5% 5%;
     }
     
@@ -564,7 +564,7 @@ a.menu{
     .statistics_bottom{
        
         width: 90%;
-        margin-top: -23.05%;
+        margin-top: -23%;
         padding: 0 5% 5%;
     }
     
@@ -600,6 +600,7 @@ a.menu{
  
     .footer_links li {
         line-height: 2rem;
+        font-size: 1rem;
 
     }
     .footer_links {
