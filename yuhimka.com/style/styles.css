@@ -404,9 +404,14 @@ a.menu{
    display: flex;
    flex-flow: row wrap;
    width: 20%;
+   font-size: .8rem;
+
 }
 
- 
+.footer_frase {
+    font-size: .8rem;
+
+}
 
 .footer_picture   {
     
