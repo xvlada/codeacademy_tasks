@@ -568,6 +568,11 @@ a.menu{
     
     .ic:hover {
         opacity: 1;
+
+    }
+
+    .noic:hover {
+        opacity: 0;
     }
     
     a.menu, a.last_menu_item {
