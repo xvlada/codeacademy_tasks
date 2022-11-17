@@ -191,6 +191,7 @@ a.menu{
     width: 10.1%;
     border-radius: 30%;
     opacity: 0;
+    border: 1% solid rgb(50, 50, 50);
 
 }
 
@@ -484,6 +485,7 @@ a.menu{
         width: 20%;
         opacity: 0;
         border-radius: 25%;
+        
     }
 
     #introduction {
