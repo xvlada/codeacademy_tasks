@@ -161,6 +161,9 @@ a.menu{
     border-radius: 30%;
 }
 
+.noic:hover {
+    opacity: 1;
+}
 
 .statistics_bottom{
     display: flex;
@@ -571,9 +574,7 @@ a.menu{
 
     }
 
-    .noic:hover {
-        opacity: 1;
-    }
+   
     
     a.menu, a.last_menu_item {
         font-size: 1rem;
