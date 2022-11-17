@@ -67,6 +67,7 @@ a.menu:hover, a.last_menu_item:hover {
    font-weight: bold;
    transition: 500ms;
    padding: 0.9rem;
+   z-index: 100;
 } 
 #menu {
  
@@ -178,7 +179,9 @@ a.menu{
    
 }
 
- 
+.noic:hover{
+    opacity: 0;
+}
 
 #stat_container_bottom {
     display: flex;
@@ -619,6 +622,17 @@ a.menu{
 @media only screen and (max-width: 355px)  {
     a.menu, a.last_menu_item {
     font-size: 4vw;}
+
+    .footer_frase {
+        font-size: .7rem;
+
+    }
+ 
+    .footer_links li {
+        line-height: 1.7rem;
+        font-size: .7rem;
+
+    }
 }
 
 
